@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Car Repair | Locations</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!--[if lt IE 9]>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/html5.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+<![endif]-->
+
+    <style>
+        .sub-page-left {
+            position: relative;
+            width: 70%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <header>
+            <div class="main wrap">
+                <h1>
+                    <a href="index.html"><img src="images/logo-4-1024x793.png" class="logo24" alt=""></a>
+                </h1>
+                <p>United Arab Emirates <span>8 (800) 552 5975</span></p>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="index.html" class="home"><img src="images/home.jpg" alt=""></a>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Service.html">Service</a></li>
+                    <li><a href="other_Service.html">Other Service</a></li>
+                    <li><a href="price-list.html">Price List</a></li>
+                    <li class="current"><a href="Contact.html">Contact Us</a></li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </header>
+        <section>
+            <div class="sub-page">
+                <div class="sub-page-left box-9">
+                    <h2>Contact Form</h2>
+                    <form id="form" method="post" action="#">
+                        <fieldset>
+                            <label>
+              <input type="text" value="Name" onBlur="if(this.value=='') this.value='Name'" onFocus="if(this.value =='Name' ) this.value=''">
+            </label>
+                            <label>
+              <input type="text" value="Email" onBlur="if(this.value=='') this.value='Email'" onFocus="if(this.value =='Email' ) this.value=''">
+            </label>
+                            <label>
+              <input type="text" value="Phone" onBlur="if(this.value=='') this.value='Phone'" onFocus="if(this.value =='Phone' ) this.value=''">
+            </label>
+                            <label>
+              <textarea onBlur="if(this.value==''){this.value='MESSAGE'}" onFocus="if(this.value=='MESSAGE'){this.value=''}">MESSAGE</textarea>
+            </label>
+                            <div class="btns"><a href="#" class="button">Clear</a><a href="#" class="button" onClick="document.getElementById('form').submit()">Send</a></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="sub-page-right">
+                    <h2>Find Us</h2>
+                    <div class="map">
+
+                        <!-- <iframe src="https://maps.app.goo.gl/ketJUHkt7UaUScT4A" width="100%" height="480"></iframe>
+                        <iframe src=""></iframe> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29312143.685424767!2d24.15795006275257!3d26.257036871917038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5ebc9ce7a12b%3A0xef1842a927b310cc!2sMisr%20%26%20Emirates%20Metal%20Scrap%20Co%20LLC!5e0!3m2!1sen!2sjo!4v1707143584653!5m2!1sen!2sjo"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1034558.7402859653!2d54.91078801085171!3d24.56502988226831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e48dfb1ab12bd%3A0x33d32f56c0080aa7!2sUnited%20Arab%20Emirates!5e0!3m2!1sen!2sjo!4v1707127122623!5m2!1sen!2sjo" 
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    </div>
+                    <dl class="adr">
+                        <dt>POOJA METAL SCRAP <br>
+            Glasgow, D04 89GR.</dt>
+                        <dd><span>Telephone:</span>+1 800 603 6035</dd>
+                        <dd><span>E-mail:</span><a href="#" class="link">mail@demolink.org</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
